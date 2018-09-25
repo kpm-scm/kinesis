@@ -13,7 +13,7 @@
         },
         {
             "disabled": false,
-            "name": "open site",
+            "name": "sample viz opening",
             "type": "viz_open",
             "url": "{{TABLEAU_URL}}/t/{{TABLEAU_SITE}}/views/AnalyzeSuperstore/Product"
         }
