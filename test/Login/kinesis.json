@@ -1,0 +1,22 @@
+{
+    "description": "login to site",
+    "name": "Login",
+    "tasks": [
+        {
+            "disabled": false,
+            "name": "Login",
+            "password": "9h9oMJ05dVvJlifzl/v8;encrypted",
+            "site-id": "{{TABLEAU_SITE}}",
+            "type": "login_tableau",
+            "url": "{{TABLEAU_URL}}",
+            "user": "{{TABLEAU_USER}}"
+        },
+        {
+            "disabled": false,
+            "name": "open site",
+            "type": "viz_open",
+            "url": "{{TABLEAU_URL}}/t/{{TABLEAU_SITE}}/views/AnalyzeSuperstore/Product"
+        }
+    ],
+    "type": "functional"
+}

@@ -1,0 +1,8 @@
+{
+    "kinesisVersion": "1.7.2",
+    "name": "CI-demo",
+    "description": "demo",
+    "srcDir": "src",
+    "jobDir": "test",
+    "contextDir": "context"
+}
